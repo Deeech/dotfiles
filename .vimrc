@@ -1,3 +1,9 @@
+" Use vim settings, rather then vi settings (much better!)
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+syntax enable " enable syntax highlighting
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
@@ -6,10 +12,6 @@ Plug 'pangloss/vim-javascript'
 Plug 'easymotion/vim-easymotion'
 
 call plug#end()
-
-syntax enable " enable syntax highlighting
-
-set nocompatible
 
 set number
 set ruler
