@@ -1,0 +1,21 @@
+# Shortcuts
+alias _="sudo"
+alias v="vim"
+alias rr="rm -rf"
+alias json="json -c"
+
+# Git
+alias g="git"
+alias ga="git add . -A"
+alias gs="git status"
+alias gc="git commit -m"
+alias gcl="git clone"
+
+# List declared aliases, functions
+alias listaliases="alias | sed 's/=.*//'"
+alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'" # show non _prefixed functions
+
+# npm
+alias ni="npm install"
+alias nun="npm uninstall"
+alias nup="npm update"
