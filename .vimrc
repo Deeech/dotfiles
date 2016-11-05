@@ -10,6 +10,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'valloric/youcompleteme'
 Plug 'pangloss/vim-javascript'
 Plug 'easymotion/vim-easymotion'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
 
