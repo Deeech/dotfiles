@@ -26,6 +26,9 @@ ino jj <esc>
 cno jj <c-c>
 vno v <esc>
 
+set backspace=2 " make backspace work like most other apps
+set backspace=indent,eol,start
+
 " Smart way to move between windows
 map <C-j> <C-W>j
 map <C-k> <C-W>k
