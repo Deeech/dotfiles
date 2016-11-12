@@ -2,6 +2,9 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" Relative numbers (set relativenumber shortcut)
+set rnu
+
 syntax enable " enable syntax highlighting
 
 call plug#begin('~/.vim/plugged')
