@@ -1,3 +1,3 @@
 export DOTFILES=$HOME/Projects/git/dotfiles
 
-ln $DOTFILES/.tmux.conf   $HOME/.tmux.conf
+ln -s $DOTFILES/tmux/.tmux.conf   $HOME/.tmux.conf
