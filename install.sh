@@ -13,8 +13,9 @@ echo "Installing dotfiles"
 echo "vim"
 ln -s $DOTFILES/vim/.vimrc        $HOME/.vimrc
 ln -s $DOTFILES/vim/.vim          $HOME/.vim
-echo "tmux"
 ln -s $DOTFILES/tmux/.tmux.conf   $HOME/.tmux.conf
+echo "aliases"
+ln -s $DOTFILES/.aliases   $HOME/.aliases
 
 echo "Initializing submodule(s)"
 # git submodule update --init --recursive
