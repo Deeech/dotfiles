@@ -16,6 +16,8 @@ ln -s $DOTFILES/vim/.vim          $HOME/.vim
 ln -s $DOTFILES/tmux/.tmux.conf   $HOME/.tmux.conf
 echo "aliases"
 ln -s $DOTFILES/.aliases   $HOME/.aliases
+echo ".profile"
+ln -s $DOTFILES/.profile   $HOME/.profile
 
 echo "Initializing submodule(s)"
 # git submodule update --init --recursive
