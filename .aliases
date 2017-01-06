@@ -8,7 +8,7 @@ alias json="json -c"
 
 # Git
 alias g="git"
-alias ga="git add . -A && git status"
+alias ga="clear; git add . -A; git status"
 alias gs="git status"
 alias gc="git commit -m"
 alias gcl="git clone"
