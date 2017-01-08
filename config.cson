@@ -1,0 +1,26 @@
+"*":
+  core:
+    disabledPackages: [
+      "Remote-FTP"
+    ]
+    themes: [
+      "one-dark-ui"
+      "cobalt2-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "a1bd487a-aceb-a2ea-2c1e-55b6a4577ef6"
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
