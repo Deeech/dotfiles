@@ -4,4 +4,4 @@ if [ -f "$HOME/.aliases" ]; then
   . "$HOME/.aliases"
 fi
 
-export PATH="/Applications/anaconda/bin:$PATH"
+export PATH="/opt/local/bin:/opt/local/sbin:/Applications/anaconda/bin:$PATH"
