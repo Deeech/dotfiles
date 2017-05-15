@@ -15,7 +15,7 @@ alias gcl="git clone"
 alias gcl="git clone"
 alias gl="log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
 
-# List declared aliases, functions
+# List declared aliases, functions TODO: fish shell
 alias listaliases="alias | sed 's/=.*//'"
 alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'" # show non _prefixed functions
 
