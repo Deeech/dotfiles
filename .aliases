@@ -12,6 +12,8 @@ alias ga="clear; git add . -A; git status"
 alias gs="git status"
 alias gc="git commit -m"
 alias gcl="git clone"
+alias gcl="git clone"
+alias gl="log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # List declared aliases, functions
 alias listaliases="alias | sed 's/=.*//'"
